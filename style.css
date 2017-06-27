@@ -31,20 +31,19 @@ header{
     z-index: -1;
 }
 
-header a{
-    display: block;
+header img{
     position: absolute;
     left: 75%;
-    top: 60px;
+    top: 50px;
     z-index: 100;
-    overflow: visible;
 }
+
 
 .mainSection{
     margin: auto;
     width: 800px;
     background-color: red;
-    overflow: hidden;
+    z-index: -1;
    
 }
 
