@@ -42,7 +42,6 @@ header {
     margin: auto;
     width: 800px;
     height: 105px;
-    border: 1px solid black;
     position: relative;
 }
 
@@ -62,6 +61,7 @@ li{
 
 
 .mainSection{
+    
     margin: auto;
     width: 800px;
     background-color: red;
@@ -78,7 +78,7 @@ li{
      color: white;
      position: absolute;
      background-color: gray;
-     bottom: 6px;
+     bottom: 21px;
      right: 5px;
      width: 286px;
      opacity: 0.8;
@@ -89,15 +89,6 @@ a.lower_link{
     position: absolute;
     bottom: 0;
     left: 0;
-}
-
-.row {
-    
-    
-}
-
-.coloum{
-   
 }
 
 .clearfix::after {
