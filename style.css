@@ -28,13 +28,17 @@ header{
     height: 105px;;
     background-color: grey;
     position: relative;
-    z-index: -1;
+    
+}
+
+header div{
+    position: absolute;
 }
 
 header img{
     position: absolute;
-    left: 75%;
-    top: 50px;
+    left: 76%;
+    top: 35px;
     z-index: 100;
 }
 
@@ -43,7 +47,7 @@ header img{
     margin: auto;
     width: 800px;
     background-color: red;
-    z-index: -1;
+    z-index: 1;
    
 }
 
