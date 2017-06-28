@@ -40,7 +40,7 @@ header {
 
 .main_div_header{
     margin: auto;
-    width: 800px;
+    width: 900px;
     height: 105px;
     position: relative;
 }
@@ -61,17 +61,13 @@ li{
 
 
 .mainSection{
-    
-    margin: auto;
-    width: 800px;
-    background-color: red;
-    z-index: 1;
    
+    margin: auto;
+    margin-top: 5px;
+    width: 900px;
+    background-color: red;
 }
 
-.div_image{
-    position: relative;
-}
 
 .div_inside_image{
     font-size: 14px;
@@ -89,6 +85,23 @@ a.lower_link{
     position: absolute;
     bottom: 0;
     left: 0;
+    /* isnt positioned right yet */
+}
+
+
+.div_image{
+    float:right;
+    margin: 4px;
+    position: relative;
+    
+}
+
+
+.lower_div_image{
+    float: right;
+    width: 219px;
+    height: 220px;
+    position: absolute;
 }
 
 .clearfix::after {
