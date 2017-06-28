@@ -51,6 +51,7 @@ li{
     display: inline;
     margin: 4px;
     border-left: 4px solid black;
+    color: white;
 }
 
 .header_search{
@@ -68,8 +69,29 @@ li{
    
 }
 
+.div_image{
+    position: relative;
+}
 
-.row{
+.div_inside_image{
+    font-size: 14px;
+     color: white;
+     position: absolute;
+     background-color: gray;
+     bottom: 6px;
+     right: 5px;
+     width: 286px;
+     opacity: 0.8;
+     border-bottom-right-radius: 20px;
+ }
+
+a.lower_link{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.row {
     
     
 }
