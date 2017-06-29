@@ -89,6 +89,14 @@ li{
      border-bottom-right-radius: 20px;
  }
 
+
+.lower_link{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2px;
+}
+
 a.lower_link{
     position: absolute;
     bottom: 0;
