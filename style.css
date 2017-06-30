@@ -69,7 +69,6 @@ li{
 
 
 .mainSection{
-   
     margin: auto;
     margin-top: 5px;
     width: 900px;
@@ -106,16 +105,23 @@ li{
     float:right;
     margin: 4px;
     position: relative;
-    
+}
+
+.lower_div_image{
+    float:right;
+    margin: 4px;
+    position: relative;
 }
 
 
+/*
 .lower_div_image{
     float: right;
     width: 219px;
     height: 220px;
     position: absolute;
 }
+*/
 
 
 .div_inside_image h4{
