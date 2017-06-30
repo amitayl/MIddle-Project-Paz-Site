@@ -94,7 +94,12 @@ li{
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-left: 2px;
+    margin-left: 0;
+    color: white;
+}
+
+.lower_link a{
+    color: white;
 }
 
 .div_image{
@@ -110,6 +115,11 @@ li{
     width: 219px;
     height: 220px;
     position: absolute;
+}
+
+
+.div_inside_image h4{
+    font-weight: bold;
 }
 
 .clearfix::after {
